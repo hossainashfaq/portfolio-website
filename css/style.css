@@ -7,6 +7,11 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    font-size: 40px;
+    margin: 0%;
+}
+
 .heading-orange {
     color: orange;
 }
@@ -54,4 +59,26 @@ h1 {
     background-position-y: bottom;
 }
 
-.experience {}
+.experience-item {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    box-shadow: 10px 10px 30px gray;
+    border-radius: 5px;
+}
+
+#borderline1 {
+    border-left: 5px solid rgb(255, 0, 179);
+}
+
+#borderline2 {
+    border-left: 5px solid blue;
+}
+
+.experience {
+    background-image: url(/image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position-y: bottom;
+}
